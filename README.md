@@ -7,5 +7,10 @@
     console.log()는 출력만 하므로 계산과 결과 반환을 위해서는 함수를 사용
     콜론(:) - key 값에 value 값을 지정해줌(파이썬의 딕셔너리와 유사)
     var: 전에는 var을 사용했지만, 현재는 사용하지 않음. const를 주로 사용, let은 가끔 사용
+09/29 - 이벤트 발생
+    const title = document.querySelector("h1")
+    // html에서 <h1>태그를 가진 요소들 중 가장 첫 노드를 title에 리턴. 클래스인 경우 .을, id의 경우 #을 붙임
+    const x = { 함수이름: function() {} }; // == const x = {function 함수이름() {} }; 
     
+    title.addEventListenter("", x.함수이름) // 해당 이벤트 발생시 x안에 있는 함수를 실행
     
