@@ -13,4 +13,4 @@
     const x = { 함수이름: function() {} }; // == const x = {function 함수이름() {} }; 
     
     title.addEventListenter("", x.함수이름) // 해당 이벤트 발생시 x안에 있는 함수를 실행
-    
+10/02 -     
